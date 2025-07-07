@@ -85,7 +85,7 @@
 .header__image{
   position: absolute;
   width: 646px;
-  height: 568;
+  height: 568px;
   top: 124px;
   right: 5px;
 }
@@ -169,5 +169,5 @@
   font-weight: 500;
   font-size: 17px;
   line-height: 30px;
-  text-justify: space-between;
+  text-align: justify;
 }
