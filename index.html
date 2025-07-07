@@ -10,22 +10,59 @@
   <link rel="stylesheet" href="./pages/index.css" />
   <link rel="shortcut icon" href="favicon.ico" />
   <title>Cafetería de Especialidad MVM</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
-</head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></head>
 <body>
   <div class="page">
-    Prueba de fuentes
-    <header class="header"></header>
+    <header class="header">
+      <nav class="nav">
+        <img class="nav__logo" src="./images/logo_coffeeshop_dark.svg" alt="logo oscuro cofeeshop" />
+        <ul class="nav__links">
+          <li>
+            <a class="nav__link" href="#recipies">Recetas</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#reservation">Reservar una mesa</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#contact">Contactos</a>
+          </li>
+        </ul>
+      </nav>
+      <h1 class="header__title">
+        <span class="header__span-acent header__span-acent_noto-serif">Café de Especialidad </span>
+        <span class="header__span-acent ">en Triple Peaks</span>
+      </h1>
+      <div class="header__description">
+        <p>¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café</p><p>para darte energía y motivar tu creatividad.</p>
+      </div>
+      <img class="header__image" src="/web_project_coffeeshop/images/inside_coffee_shop.png" alt="Interior Cafetería"/>
+    </header>
+    <div class="header__footer">
+      <p class="header__footer__paragraph">Horario:</p>
+      <p class="header__footer__paragraph">Lunes a Viernes (de 10:00h a 19:00h)</p>
+      <p class="header__footer__paragraph">Sábados y Domingos (de 11:00h a 18:00h)</p>
+      <p class="header__footer__paragraph header__footer__paragraph__direccion">Avenida del Éxito 200, Ciudad Triple Peaks</p>
+    </div>
     <main class="content">
-      <section class="recipies"></section>
-      <section class="reservation"></section>
+      <section class="recipies" id="recipies">
+        <h2 class="recipies__title">Recetas</h2>
+        <div class="recipies__subtitle">Echa un vistazo a las recetas que hemos reunido para que elabores tus propios snacks.</div>
+        <div class="recipies__videos">
+          <div class="recipies__video-item">
+            <iframe class="recipies__iframe" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=y3yLdsxegtIK911p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="recipies__video-caption">Receta en Aeropress ~5 min</div>
+          </div>
+          <div class="recipies__video-item">
+            <iframe class="recipies__iframe" src="https://www.youtube.com/embed/st571DYYTR8?si=ppE8_sws09A83R3G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="recipies__video-caption">Receta en cafetera francesa  ~15 min</div>
+          </div>
+        </div>
+      </section>
+      <section class="reservation" id="reservation"></section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer" id="contact"></footer>
   </div>
 </body>
 </html>
