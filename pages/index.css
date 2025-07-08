@@ -74,12 +74,14 @@
 }
 
 .header__description{
-  max-width: 683px;
-  padding-left: 80px;
+  position: relative;
+  max-width: 600px;
+  left: 80px;
+  font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
-  font-size: 19px;
-  line-height: 25px;
+  font-size: 17px;
+  line-height: 30px;
 }
 
 .header__image{
