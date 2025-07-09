@@ -254,10 +254,11 @@
   content: url(/web_project_coffeeshop/images/check.svg);
 }
 
-.reservation__form_label-checkbox{
+.reservation__form_aceptar{
   display: flex;
   flex-direction: row;
   gap: 7px;
+  width: auto;
   align-self: center;
 }
 
