@@ -174,8 +174,6 @@
 }
 
 .reservation{
-  margin: 0;
-  padding: 0;
   background-color: #D9E7FF;
   background-image: url("/web_project_coffeeshop/images/background_reservation.svg");
   background-size:  cover;
