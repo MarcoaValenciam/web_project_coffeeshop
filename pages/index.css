@@ -182,6 +182,7 @@
   background-repeat: no-repeat;
   color: #000;
   justify-items: center;
+  padding-bottom: 120px;
 }
 
 .reservation__title{
@@ -198,6 +199,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  gap: 32px;
 }
 
 .reservation__form_fieldset{
@@ -241,10 +243,6 @@
   opacity: 70%;
 }
 
-.reservation__form_margin-top{
-  margin-top: 32px;
-}
-
 .reservation__form_checkbox{
   width: 20px;
   height: 20px;
@@ -257,7 +255,6 @@
 }
 
 .reservation__form_label-checkbox{
-  padding-top: 32px;
   display: flex;
   flex-direction: row;
   gap: 7px;
