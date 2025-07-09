@@ -213,7 +213,7 @@
   gap: 8px;
 }
 
-.reservation__form__label{
+.reservation__form_label{
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -261,7 +261,7 @@
   content: url(/web_project_coffeeshop/images/check.svg);
 }
 
-.reservation__form__label-checkbox{
+.reservation__form_label-checkbox{
   padding-top: 32px;
   display: flex;
   flex-direction: row;
