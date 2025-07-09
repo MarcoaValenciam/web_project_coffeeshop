@@ -184,6 +184,7 @@
 }
 
 .reservation__title{
+  margin: 0;
   padding-top: 100px;
   padding-bottom: 80px;
   font-weight: 500;
