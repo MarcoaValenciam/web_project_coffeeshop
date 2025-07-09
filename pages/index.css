@@ -187,29 +187,24 @@
 .reservation__title{
   margin: 0;
   padding-top: 100px;
+  padding-bottom: 80px;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
 }
 
 .reservation__form{
-  padding-top: 80px;
-  padding-bottom: 120px;
   max-width: 385px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 100%;
 }
 
 .reservation__form_fieldset{
-  display: flex;
-  flex-direction: column;
   gap: 32px;
 }
 
 .reservation__form_fieldset_item{
-  display: flex;
-  flex-direction: column;
   gap: 8px;
 }
 
@@ -245,7 +240,6 @@
   opacity: 70%;
 }
 
-
 .reservation__form__margin-top{
   margin-top: 32px;
 }
@@ -266,5 +260,6 @@
   display: flex;
   flex-direction: row;
   gap: 7px;
+  align-self: center;
 }
 
