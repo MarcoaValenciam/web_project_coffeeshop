@@ -39,15 +39,14 @@
         para darte energía y motivar tu creatividad.
       </p>
       <img class="header__image" src="/web_project_coffeeshop/images/inside_coffee_shop.png" alt="Interior Cafetería"/>
-    <div class="header__footer">
-      <div>
-        <p class="header__paragraph">Horario:</p>
-        <p class="header__paragraph">Lunes a Viernes (de 10:00h a 19:00h)</p>
-        <p class="header__paragraph">Sábados y Domingos (de 11:00h a 18:00h)</p>
+      <div class="header__footer">
+        <div>
+          <p class="header__paragraph">Horario:</p>
+          <p class="header__paragraph">Lunes a Viernes (de 10:00h a 19:00h)</p>
+          <p class="header__paragraph">Sábados y Domingos (de 11:00h a 18:00h)</p>
+        </div>
+        <p class="header__paragraph">Avenida del Éxito 200, Ciudad Triple Peaks</p>
       </div>
-      <p class="header__paragraph">Avenida del Éxito 200, Ciudad Triple Peaks</p>
-      <!-- <p class="header__paragraph">Avenida del Éxito 200, Ciudad Triple Peaks</p> -->
-    </div>
     </header>
     <main class="content">
       <section class="recipes" id="recipes">
@@ -60,11 +59,39 @@
           </div>
           <div class="recipes__video-item">
             <iframe class="recipes__iframe" src="https://www.youtube.com/embed/st571DYYTR8?si=ppE8_sws09A83R3G" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <div class="recipes__video-caption">Receta en cafetera francesa  ~15 min</div>
+            <div class="recipes__video-caption">Receta en cafetera francesa 15 min</div>
           </div>
         </div>
       </section>
-      <section class="reservation" id="reservation"></section>
+      <section class="reservation" id="reservation">
+        <h2 class="reservation__title reservation__title__margin">Reservar una mesa</h2>
+        <form class="reservation__form">
+          <div class="form__fieldset">
+            <div class="form__fieldset_item">
+              <label class="form__label" for="nombre">Nombre *</label>
+              <input class="form__input" id="nombre" type="text" placeholder="Nombre" required minlength="3" maxlength="20" />
+            </div>
+            <div class="form__fieldset_item">
+              <label class="form__label" for="numeroComensales">Número de comensales *</label>
+              <input class="form__input" id="numeroComensales" type="number" placeholder="1-8" required min="1" max="8" />
+            </div>
+            <div class="form__fieldset_item">
+              <label class="form__label" for="fechaHora">Fecha y hora *</label>
+              <input class="form__input" id="fechaHora" type="datetime-local" required />
+            </div>
+            <div class="form__fieldset_item" >
+              <label class="form__label" for="email">Tu correo electrónico *</label>
+              <input class="form__input" id="email" type="email" placeholder="email@email.com" required />
+            </div>
+          </div>
+          <button class="form__button form__margin-top">Reservar una mesa</button>
+          <div class=" form__label-checkbox">
+            <input class="form__checkbox" id="aceptar" type="checkbox" required />
+            <label class="form__label" for="aceptar">Acepto los términos de uso</label>
+          </div>
+
+        </form>
+      </section>
     </main>
     <footer class="footer" id="contact"></footer>
   </div>
