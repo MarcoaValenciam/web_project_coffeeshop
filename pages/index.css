@@ -201,13 +201,13 @@
   align-items: center;
 }
 
-.reservation__form__fieldset{
+.reservation__form_fieldset{
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
 
-.reservation__form__fieldset_item{
+.reservation__form_fieldset_item{
   display: flex;
   flex-direction: column;
   gap: 8px;
