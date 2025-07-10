@@ -26,13 +26,13 @@
   justify-content: space-between;
 }
 
-.footer__content_logo{
+.footer__logo{
   width: 105px;
   height: 39px;
   z-index: 2;
 }
 
-.footer__content_social{
+.footer__social{
   display: flex;
   flex-direction: column;
   gap: 20px;
