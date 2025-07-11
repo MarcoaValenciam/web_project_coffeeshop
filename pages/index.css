@@ -1,8 +1,8 @@
-@import url("/web_project_coffeeshop/vendor/normalize.css");
-@import url("/web_project_coffeeshop/blocks/page.css");
-@import url("/web_project_coffeeshop/blocks/header.css");
-@import url("/web_project_coffeeshop/blocks/nav.css");
-@import url("/web_project_coffeeshop/blocks/recipes.css");
-@import url("/web_project_coffeeshop/blocks/reservation.css");
-@import url("/web_project_coffeeshop/blocks/form.css");
-@import url("/web_project_coffeeshop/blocks/footer.css");
+@import url("../vendor/normalize.css");
+@import url("../blocks/page.css");
+@import url("../blocks/header.css");
+@import url("../blocks/nav.css");
+@import url("../blocks/recipes.css");
+@import url("../blocks/reservation.css");
+@import url("../blocks/form.css");
+@import url("../blocks/footer.css");

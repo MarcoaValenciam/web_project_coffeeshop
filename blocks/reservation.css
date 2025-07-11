@@ -1,6 +1,6 @@
 .reservation{
   background-color: #D9E7FF;
-  background-image: url("/web_project_coffeeshop/images/background_reservation.svg");
+  background-image: url("../images/background_reservation.svg");
   background-size:  cover;
   background-repeat: no-repeat;
   color: #000;
@@ -73,7 +73,7 @@
 
 .reservation__form_checkbox:checked::after {
   color: #2F80ED;
-  content: url(/web_project_coffeeshop/images/check.svg);
+  content: url(./images/check.svg);
 }
 
 .reservation__form_aceptar{

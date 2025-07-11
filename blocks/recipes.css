@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   background-color: #0a2750;
-  background-image: url("/web_project_coffeeshop/images/background_recipes.svg");
+  background-image: url("../images/background_recipes.svg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
