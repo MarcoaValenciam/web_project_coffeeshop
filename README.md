@@ -1,4 +1,4 @@
-Nombre del proyecto: Coffeeshop
+Proyecto: Coffeeshop  - Sitio Web Responsivo
 
 Desarrollo de un sitio web completamente responsivo para una cafetería local, enfocado en crear una experiencia de usuario atractiva y funcional en todos los dispositivos.
 
