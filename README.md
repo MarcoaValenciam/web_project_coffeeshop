@@ -19,5 +19,4 @@ Aprendizajes clave:
 
 Tecnologías utilizadas: HTML5, CSS3,  JavaScript ES6+, metodología Flex, Responsive Design, Metodológía BEM.
 
-https://marcoavalenciam.github.io/web_project_coffeeshop/
-
+URL: https://marcoavalenciam.github.io/web_project_coffeeshop/
