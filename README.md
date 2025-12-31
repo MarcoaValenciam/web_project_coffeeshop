@@ -1,7 +1,23 @@
-Nombre del proyecto: Cafeteria
+Nombre del proyecto: Coffeeshop
 
-Funcionalidad: Se genero una portada inicial con de presentación y con enlaces a las diferentes secciones de la página.
+Desarrollo de un sitio web completamente responsivo para una cafetería local, enfocado en crear una experiencia de usuario atractiva y funcional en todos los dispositivos.
 
-Tecnologías utilizadas: Metodológía BEM, metodología Flex, HTML y CSS.
+Características Principales
 
-Planes de mejora del proyecto: Agregar funcionalidad utilizando elemntos de listas de selección y text área.
+Diseño responsivo: Implementación de CSS Grid y Flexbox para garantizar una visualización óptima en desktop, tablet y móvil
+
+Interactividad: JavaScript vanilla para funcionalidades dinámicas como menú hamburguesa, galería de imágenes y formulario de contacto
+
+Optimización: Código semántico HTML5 y CSS optimizado para mejorar el rendimiento y SEO
+
+UX/UI: Diseño centrado en el usuario con navegación intuitiva y llamadas a la acción claras
+
+Aprendizajes clave:
+- Dominio de técnicas de responsive design y mobile-first approach
+- Implementación de JavaScript para mejorar la interactividad del usuario
+- Mejores prácticas de desarrollo frontend y estructura de código limpio
+
+Tecnologías utilizadas: HTML5, CSS3,  JavaScript ES6+, metodología Flex, Responsive Design, Metodológía BEM.
+
+https://marcoavalenciam.github.io/web_project_coffeeshop/
+
