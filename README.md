@@ -13,7 +13,7 @@ Aprendizajes clave:
 - Implementación de JavaScript para mejorar la interactividad del usuario
 - Mejores prácticas de desarrollo frontend y estructura de código limpio
 
-Tecnologías utilizadas: HTML5, CSS3,  JavaScript ES6+, metodología Flex, Responsive Design, Metodológía BEM.
+Tecnologías utilizadas: HTML5, CSS3, metodología Flex, Responsive Design, Metodológía BEM.
 
 Desarrollador: Marco Antonio Valencia Mijangos
 
